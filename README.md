@@ -1,0 +1,1 @@
+Homework: зверстати макет - https://www.figma.com/file/YlzwHhHSNREKTp2DMC4MAL/jQuery_Slick-Slider
