@@ -11,12 +11,13 @@ body {
     flex-direction: row;
     height: 80px;
     align-items: center;
+    justify-content: center;
     background: rgba(248, 241, 234, 1);
 }
 
 #header-logo {
     padding-left: 80px;
-    padding-right: 120px;
+    padding-right: 20px;
 }
 
 #header-icons {
@@ -46,7 +47,7 @@ body {
     flex-direction: row;
     list-style-type: none;
     align-items: center;
-    padding-right: 306px;
+    padding-right: 30px;
 
 }
 
