@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script defer src="script.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <title>JQuery Slick Slider</title>
+</head>
+
+<body>
+    <div id="hero" class="hero">
+        <div id="header">
+            <div id="header-logo">
+                <img src="img/logo/logo.svg" alt="logo">
+            </div>
+            <div id="navigation">
+                <ul id="nav-bar">
+                    <li id="nav-title"><a class="nav-title" href="#">Home</a></li>
+                    <li id="nav-title"><a class="nav-title" href="#">Catalog</a></li>
+                    <li id="nav-title"><a class="nav-title" href="#">News</a></li>
+                    <li id="nav-title"><a class="nav-title" href="#">Contacts</a></li>
+                </ul>
+            </div>
+            <div id="header-icons">
+                <button id="icon1"><img src="img/icons/search-icon.svg" alt="search"></button>
+                <button id="icon2"><img src="img/icons/profile-icon.svg" alt="profile"></button>
+            </div>
+        </div>
+
+        <div id="section-slider" class="single-item">
+            <div class="slide">
+                <img src="img/section-slider/picture.svg" alt="">
+                <h1 class="s-title"><b>Find your <br> own style</b></h1>
+                <button class="s-btn1">View more</button>
+            </div>
+            <div class="slide">
+                <img src="img/section-slider/picture (1).svg" alt="">
+                <h1 class="s-title"><b>expand your <br> horizons</b></h1>
+                <button class="s-btn">View more</button>
+            </div>
+            <div class="slide">
+                <img src="img/section-slider/picture (2).svg" alt="">
+                <h1 class="s-title"><b>discover new <br> options</b></h1>
+                <button class="s-btn">View more</button>
+            </div>
+        </div>
+
+        <div id="section-products">
+            <h2><b>new arrivals</b></h2>
+            <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}' class="product-list">
+                <div class="list1">
+                    <img class="list-img" src="img/section-products/image.png" alt="product">
+                    <h3>Hagstrom Alvar Limited <br> Edition</h3>
+                    <p>€2.990,00</p>
+                </div>
+                <div class="list2">
+                    <img class="list-img" src="img/section-products/image (1).png" alt="product">
+                    <h3>Hagstrom Tremar Viking <br> Deluxe Cloudy Seas</h3>
+                    <p>€1.300,00</p>
+                </div>
+                <div class="list3">
+                    <img class="list-img" src="img/section-products/image (2).png" alt="product">
+                    <h3>Gibson Les Paul <br> Standard 60s</h3>
+                    <p>€3.749,00</p>
+                </div>
+                <div class="list4">
+                    <img class="list-img" src="img/section-products/image (3).png" alt="product">
+                    <h3>Suhr Standard Plus <br> Trans Blue Denim</h3>
+                    <p>€3.449,00</p>
+                </div>
+                <div class="list5">
+                    <img class="list-img" src="img/section-products/image (4).png" alt="product">
+                    <h3>Fender Telecaster Black <br> Paisley Limited Edition</h3>
+                    <p>€1.499,00</p>
+                </div>
+            </div>
+            <div class="productlist-btn">
+                <button class="list-btn"><b>View more</b></button>
+            </div>
+        </div>
+
+        <div id="section-partners">
+            <h2>our partners</h2>
+            <div class="partner-list">
+                <div><img src="img/partners/epiphone.svg" alt="partner logo"></div>
+                <div><img src="img/partners/esp.svg" alt="partner logo"></div>
+                <div><img src="img/partners/gibson.svg" alt="partner logo"></div>
+                <div><img src="img/partners/engl.svg" alt="partner logo"></div>
+                <div><img src="img/partners/roland.svg" alt="partner logo"></div>
+                <div><img src="img/partners/fender.svg" alt="partner logo"></div>
+                <div><img src="img/partners/peavey.svg" alt="partner logo"></div>
+                <div><img src="img/partners/marshal.svg" alt="partner logo"></div>
+                <div><img src="img/partners/orange.svg" alt="partner logo"></div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="menu-list">
+               
+                <ul class="list-titles">
+                    <img id="footer-logo" src="img/logo/logo-white.svg" alt="logo">
+                    <a class="title" href="#">Home</a>
+                    <a class="title" href="#">Catalog</a>
+                    <a class="title" href="#">News</a>
+                    <a class="title" href="#">Contacts</a>
+                </ul>
+            </div>
+            <div id="contacts">
+                <ul class="contacts-info">
+                    <li>
+                        <h4>Contact Us</h4>
+                    </li>
+                    <li class="contact-icons">
+                        <a href="#">
+                            <svg width="30" height="31" viewBox="0 0 30 31" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15 8.45918C13.6075 8.45918 12.2462 8.87212 11.0883 9.64577C9.93048 10.4194 9.02804 11.5191 8.49513 12.8056C7.96223 14.0921 7.8228 15.5078 8.09447 16.8736C8.36614 18.2394 9.03672 19.4939 10.0214 20.4786C11.0061 21.4633 12.2606 22.1339 13.6264 22.4055C14.9922 22.6772 16.4079 22.5378 17.6944 22.0049C18.9809 21.472 20.0806 20.5695 20.8542 19.4117C21.6279 18.2538 22.0408 16.8925 22.0408 15.5C22.0408 13.6327 21.299 11.8418 19.9786 10.5214C18.6582 9.20098 16.8673 8.45918 15 8.45918ZM15 20.7041C13.9707 20.7041 12.9646 20.3989 12.1088 19.827C11.253 19.2552 10.5859 18.4424 10.1921 17.4915C9.79817 16.5406 9.69511 15.4942 9.89591 14.4847C10.0967 13.4752 10.5924 12.548 11.3202 11.8202C12.048 11.0924 12.9752 10.5967 13.9847 10.3959C14.9942 10.1951 16.0406 10.2982 16.9915 10.6921C17.9424 11.0859 18.7552 11.753 19.327 12.6088C19.8989 13.4646 20.2041 14.4707 20.2041 15.5C20.2 16.879 19.6505 18.2003 18.6754 19.1754C17.7003 20.1505 16.379 20.7 15 20.7041ZM21.7347 0.5H8.26531C6.07321 0.5 3.9709 1.37081 2.42085 2.92085C0.870807 4.4709 0 6.57321 0 8.76531V22.2347C0 24.4268 0.870807 26.5291 2.42085 28.0791C3.9709 29.6292 6.07321 30.5 8.26531 30.5H21.7347C23.9268 30.5 26.0291 29.6292 27.5791 28.0791C29.1292 26.5291 30 24.4268 30 22.2347V8.76531C30 6.57321 29.1292 4.4709 27.5791 2.92085C26.0291 1.37081 23.9268 0.5 21.7347 0.5ZM28.1633 22.2347C28.1633 23.9397 27.486 25.5748 26.2804 26.7804C25.0748 27.986 23.4397 28.6633 21.7347 28.6633H8.26531C6.56034 28.6633 4.92521 27.986 3.71962 26.7804C2.51403 25.5748 1.83673 23.9397 1.83673 22.2347V8.76531C1.83673 7.06034 2.51403 5.42521 3.71962 4.21962C4.92521 3.01403 6.56034 2.33673 8.26531 2.33673H21.7347C23.4397 2.33673 25.0748 3.01403 26.2804 4.21962C27.486 5.42521 28.1633 7.06034 28.1633 8.76531V22.2347ZM24.4898 7.54082C24.4898 7.84354 24.4 8.13947 24.2318 8.39118C24.0637 8.64289 23.8246 8.83907 23.5449 8.95492C23.2652 9.07077 22.9575 9.10108 22.6606 9.04202C22.3637 8.98296 22.0909 8.83718 21.8769 8.62312C21.6628 8.40906 21.517 8.13633 21.458 7.83942C21.3989 7.54251 21.4292 7.23476 21.5451 6.95508C21.6609 6.67539 21.8571 6.43634 22.1088 6.26816C22.3605 6.09997 22.6565 6.0102 22.9592 6.0102C23.3651 6.0102 23.7544 6.17146 24.0415 6.45851C24.3285 6.74556 24.4898 7.13487 24.4898 7.54082Z"
+                                    fill="#F8F1EA" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="15" height="31" viewBox="0 0 15 31" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M3.82915 30.5V16.4231H0V11.3548H3.82915V7.02575C3.82915 3.62396 6.09105 0.5 11.3029 0.5C13.4131 0.5 14.9736 0.69665 14.9736 0.69665L14.8506 5.42963C14.8506 5.42963 13.2592 5.41457 11.5227 5.41457C9.64319 5.41457 9.34207 6.25652 9.34207 7.65395V11.3548H15L14.7538 16.4231H9.34207V30.5H3.82915Z"
+                                    fill="#F8F1EA" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="23" height="31" viewBox="0 0 23 31" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.2193 0.5C6.07321 0.5 0 4.61108 0 11.2648C0 15.4961 2.37197 17.9002 3.80953 17.9002C4.40277 17.9002 4.74395 16.2414 4.74395 15.773C4.74395 15.2143 3.3246 14.0238 3.3246 11.6975C3.3246 6.86521 6.99037 3.43882 11.7343 3.43882C15.8132 3.43882 18.832 5.76507 18.832 10.0387C18.832 13.2304 17.5564 19.2167 13.423 19.2167C11.9317 19.2167 10.6552 18.1349 10.6552 16.5847C10.6552 14.3123 12.2365 12.113 12.2365 9.76845C12.2365 5.79008 6.61182 6.51132 6.61182 11.3196C6.61182 12.3293 6.73736 13.4468 7.18684 14.3671C6.35976 17.9377 4.67111 23.2567 4.67111 26.935C4.67111 28.0707 4.83308 29.1891 4.94041 30.3248C5.14359 30.5537 5.042 30.5297 5.35347 30.4152C8.37235 26.2676 8.26501 25.4569 9.63069 20.0293C10.3677 21.4362 12.272 22.1931 13.7814 22.1931C20.1421 22.1931 23 15.9721 23 10.3647C23 4.39663 17.8602 0.501923 12.2183 0.501923L12.2193 0.5Z"
+                                    fill="#F8F1EA" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="38" height="33" viewBox="0 0 38 33" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M37 1.51681C37 1.51681 33.6978 3.50971 31.8618 4.07482C30.8763 2.91704 29.5665 2.09645 28.1097 1.724C26.6528 1.35156 25.1192 1.44525 23.7161 1.99239C22.3131 2.53953 21.1084 3.51373 20.2649 4.78323C19.4214 6.05272 18.9799 7.55627 19 9.09051V10.7624C16.1243 10.8386 13.2748 10.187 10.7053 8.86555C8.13576 7.54414 5.92597 5.59396 4.27273 3.18871C4.27273 3.18871 -2.27273 18.2358 12.4545 24.9234C9.0845 27.2606 5.06989 28.4326 1 28.2672C15.7273 36.6267 33.7273 28.2672 33.7273 9.04035C33.7273 8.57556 33.6815 8.11078 33.5964 7.65268C35.2655 5.97075 37 1.51681 37 1.51681Z"
+                                    stroke="#F8F1EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="42" height="33" viewBox="0 0 42 33" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M40.112 6.19136C39.8841 5.28269 39.4378 4.4542 38.8178 3.78882C38.1978 3.12343 37.4258 2.6445 36.579 2.39994C34.265 1.44055 11.8472 0.970516 5.34322 2.42677C4.49637 2.67142 3.72428 3.15052 3.10424 3.8161C2.48419 4.48169 2.03797 5.3104 1.81024 6.21926C0.765246 11.1375 0.686247 21.7702 1.83624 26.7989C2.06412 27.7076 2.51042 28.5361 3.13045 29.2015C3.75048 29.8668 4.52249 30.3458 5.36922 30.5903C9.95219 31.7225 31.7401 31.8813 36.605 30.5903C37.4518 30.3458 38.2238 29.8668 38.8438 29.2015C39.4638 28.5361 39.9101 27.7076 40.138 26.7989C41.252 21.4407 41.331 11.4669 40.112 6.19136V6.19136Z"
+                                    stroke="#F8F1EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M27 17L17 10.5V23.5L27 17Z" stroke="#F8F1EA" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li><a class="tel" href="tel:+">0800 300 4040</a></li>
+                </ul>
+            </div>
+            <div id="сopyright">
+                <h5>© Copyright 2022. All rights reserved.</h5>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
