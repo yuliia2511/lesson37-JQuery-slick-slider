@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+    max-width: 1400px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(248, 241, 234, 1);
+}
+
+#header-logo {
+    padding-left: 20px;
+}
+
+#header-icons {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+#icon1,
+#icon2 {
+    background: rgba(248, 241, 234, 1);
+    border: none;
+    cursor: pointer;
+}
+
+#navigation {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    height: 80px;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 15px;
+    gap: 10px;
+    width: 93px;
+    height: 80px;
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.nav-title:hover {
+    color: white;
+    background: rgba(241, 106, 80, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 15px;
+    gap: 10px;
+    width: 93px;
+    height: 80px;
+}
+
+.slide {
+    position: relative;
+}
+
+.s-title {
+    position: absolute;
+    top: 105px;
+    right: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F8F1EA;
+}
+
+.s-btn1 {
+    position: absolute;
+    top: 300px;
+    right: 130px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.84) 0%, rgba(217, 217, 217, 0) 100%);
+    color: white;
+    box-sizing: border-box;
+    width: 227px;
+    height: 52px;
+    border: 2px solid #F8F1EA;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.s-btn1:hover {
+    background: rgba(241, 106, 80, 1);
+    border: 1px solid rgba(241, 106, 80, 1);
+}
+
+.s-btn {
+    position: absolute;
+    top: 300px;
+    right: 178px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.84) 0%, rgba(217, 217, 217, 0) 100%);
+    color: white;
+    box-sizing: border-box;
+    width: 227px;
+    height: 52px;
+    border: 2px solid #F8F1EA;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.s-btn:hover {
+    background: rgba(241, 106, 80, 1);
+    cursor: pointer;
+    border: 2px solid rgba(241, 106, 80, 1);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 70px 55px;
+}
+
+.productlist-btn {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+.list1,
+.list2,
+.list3,
+.list4,
+.list5 {
+    display: flex;
+    margin-left: 15px;
+    border: 1px solid #F8F1EA;
+    width: 150px;
+    height: 437px;
+}
+
+.list-img {
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+h3 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 18px 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.list-btn {
+    width: 227px;
+    height: 50px;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: center;
+    padding: 15px 57px;
+    background: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.list-btn:hover {
+    background: rgba(241, 106, 80, 1);
+    color: white;
+    cursor: pointer;
+    border: 2px solid rgba(241, 106, 80, 1);
+}
+
+.list1:hover,
+.list2:hover,
+.list3:hover,
+.list4:hover,
+.list5:hover {
+    border: 1px solid rgba(241, 106, 80, 1);
+}
+
+#section-partners {
+    background: #F8F1EA;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 88px;
+}
+
+#footer {
+    background: #35312D;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#menu-list {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 70px;
+    padding-left: 90px;
+    padding-right: 630px;
+}
+
+#contacts {
+    padding-top: 70px;
+    padding-right: 90px;
+}
+
+#footer-logo {
+    padding-bottom: 35px;
+}
+
+.list-titles {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+    width: 90px;
+}
+
+.title {
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+
+.title:hover {
+    color: rgba(241, 106, 80, 1);
+}
+
+.contacts-info {
+
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+
+h4 {
+    padding-bottom: 35px;
+}
+
+.contact-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-bottom: 35px;
+}
+
+svg path:hover {
+    stroke: inherit;
+    stroke-width: inherit;
+    fill: rgba(241, 106, 80, 1);
+}
+
+.tel {
+    text-decoration: none;
+    color: white;
+}
+
+h5 {
+    width: 264px;
+    height: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F8F1EA;
+    padding-bottom: 10px;
+}
+
+div .product-list {
+    display: flex;
+    flex-direction: row;
+}
+          
+div .product-list .slick-prev {
+    width: 45px;
+    background-image: url('./img/btn-arrow/prev.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border: none;
+    text-indent: -9999px;
+}
+
+div .product-list .slick-next {
+    width: 45px;
+    background-image: url('./img/btn-arrow/next.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border: none;
+    text-indent: -9999px;
+}
+
+div .partner-list {
+    display: flex;
+    flex-direction: row;
+}
+
+div .partner-list .slick-track {
+    visibility: visible;
+    width: 1400px;
+}
+
+div .partner-list .slick-prev {
+    width: 45px;
+    background-image: url('./img/btn-arrow/prev.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F8F1EA;
+    border: none;
+    text-indent: -9999px;
+}
+
+div .partner-list .slick-next {
+    width: 45px;
+    background-image: url('./img/btn-arrow/next.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F8F1EA;
+    border: none;
+    text-indent: -9999px;
+}
+
+#section-slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+
+#section-slider .slick-dots {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: absolute;
+    list-style-type: none;
+}
+
+.slick-dots li button {
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    text-indent: -9999px;
+    background-color: rgba(248, 241, 234, 0.7);
+}
+
+.slick-dots li button:focus {
+    background-color: rgba(241, 106, 80, 1);
+}
+
+#section-slider button.slick-prev {
+    width: 0;
+    height: 0;
+    text-indent: -9999px;
+    visibility: hidden; 
+    position: absolute;
+}
+
+#section-slider button.slick-next {
+    width: 0;
+    height: 0;
+    text-indent: -9999px;
+    visibility: hidden; 
+    position: absolute;
+}
+
+#section-slider .slick-list {
+    width: 100%;
+}
