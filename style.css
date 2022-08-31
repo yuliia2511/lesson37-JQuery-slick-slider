@@ -426,3 +426,7 @@ div .partner-list .slick-next {
     visibility: hidden; 
     position: absolute;
 }
+
+#section-slider .slick-list {
+    width: 100%;
+}
